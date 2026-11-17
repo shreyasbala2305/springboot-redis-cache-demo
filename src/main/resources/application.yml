@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: springboot-redis-cache-demo
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      timeout: 2s
+
+server:
+  port: 8080
